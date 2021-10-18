@@ -38,14 +38,14 @@ Based on user data and consumer behavior data
 
 ## 1.2 Clean data
 
-## 2 Univariate analysis
+# 2 Univariate analysis
 
-## 3 Revlevant and visualization 
+# 3 Revlevant and visualization 
 
-## 4 Establish and evaluate logistic regression model 
+# 4 Establish and evaluate logistic regression model 
 
 
-## 5 Summary 
+# 5 Summary 
 
 
 
