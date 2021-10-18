@@ -1,6 +1,8 @@
 # Background 
-![tmall-view](img/tmall.png)
-![ant-view](img/ant.png)
+<div align = center>
+<img width= "350" height= "350" src = "img/tmall.png">
+<img width= "350" height= "350" src = "img/ant.png">
+</div>
 
 Tmall.com (simplified Chinese: 天猫; pinyin: Tiānmāo), formerly Taobao Mall, is a Chinese-language website for business-to-consumer (B2C) online retail, operated in China by Alibaba Group. 
 
