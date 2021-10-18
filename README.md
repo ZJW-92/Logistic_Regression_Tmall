@@ -36,3 +36,17 @@ Based on user data and consumer behavior data
 - coupon_used_in_last_month
 - coupon_ind: if using coupon in the purchase
 
+## 1.2 Clean data
+
+## 2 Univariate analysis
+
+## 3 Revlevant and visualization 
+
+## 4 Establish and evaluate logistic regression model 
+
+
+## 5 Summary 
+
+
+
+
