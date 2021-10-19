@@ -78,8 +78,6 @@ coupon = pd.concat([coupon, coupon1], axis = 1)
 
 # 3 Revlevant and visualization 
 
-## 3.1 Observe correlation between flag and other variables 
-
 ![corr-view](img/corr.png)
 ![heatmap-view](img/heatmap.png)
 
