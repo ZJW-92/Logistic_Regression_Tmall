@@ -62,6 +62,15 @@ coupon = pd.concat([coupon, coupon1], axis = 1)
 - * Married customers are slightly more likely to use coupons than unmarried and divorced customers.
 - * Married people have a higher probability of not using coupons than unmarried people.
 
+![job-view](img/job.png)
+
+- * Customers whose job title are management, technician, blue-collar are more likely to use coupon.
+
+![distplot-view](img/distplot.png)
+
+- * The data shows that the customer cluster with a higher probability of using coupons is 40 years old.
+- * It is found that age > 60 years old has fewer extreme values, but they affect the overall data distribution, and these needs to be excluded from the scope of analysis. 
+
 
 # 3 Revlevant and visualization 
 
