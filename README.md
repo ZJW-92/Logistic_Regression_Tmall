@@ -93,8 +93,19 @@ coupon = pd.concat([coupon, coupon1], axis = 1)
 - Therefore, from the perspective of probability, customers who have used coupons last month, customers who have not returned goods, and customers who have not paid with ANT credit pay will have a higher probability of using coupon again.
 
 ## 4.2 Model evaluation
+### Compute accuracy score
+
+| Score |Training set score| Test set score |
+|---|---|---|
+| 0 |  0.880424  | 0.885071 |
 
 ## 4.3 Model refinement
+
+| Score |Training set score| Test set score |
+|---|---|---|
+|  Before |  0.880424	  | 0.885071  |
+|  After |  0.880989	  | 0.885861  |
+
 
 # 5 Summary 
 
