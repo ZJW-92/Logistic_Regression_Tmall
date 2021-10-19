@@ -37,8 +37,31 @@ Based on user data and consumer behavior data
 - coupon_ind: if using coupon in the purchase
 
 ## 1.2 Clean data
+- change categorical variables: default, returned and loan to numercical varaibles, rename to coupon1
+- concat coupon and coupon1
+```
+coupon = pd.concat([coupon, coupon1], axis = 1)
+```
+- remove 'ID', 'default', 'default_no', 'returned', 'returned_no', 'loan' and 'loan_no' columns
+- rename coupon_ind to flag
 
 # 2 Univariate analysis
+* 2.1 Observe balance of 'flag' samples 0 and 1
+- * In the binary classification problem, the proportion of 0 and 1 should be balanced, and in actual situations it should not be less than 0.05, otherwise it will affect the prediction of the model.
+- * The proportions of 0 and 1 in this data set are both higher than 0.05, so the distribution is reasonable.
+
+* 2.2 Observe the mean value
+* 2.3 Visualization
+
+![returned_goods-view](img/returned_goods.png)
+
+- * Compared with customers who have not returned goods, customers who return goods are less likely to use coupons.
+
+![marriage-view](img/marriage.png)
+
+- * Married customers are slightly more likely to use coupons than unmarried and divorced customers.
+- * Married people have a higher probability of not using coupons than unmarried people.
+
 
 # 3 Revlevant and visualization 
 
