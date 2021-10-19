@@ -71,8 +71,21 @@ coupon = pd.concat([coupon, coupon1], axis = 1)
 - * The data shows that the customer cluster with a higher probability of using coupons is 40 years old.
 - * It is found that age > 60 years old has fewer extreme values, but they affect the overall data distribution, and these needs to be excluded from the scope of analysis. 
 
+![pie-view](img/pie.png)
+
+- * The 20-40 year old customer group has the highest probability of using coupon
+- * 18, 32, and 48 years old are the average ages with the highest probability of using coupon among the three age groups.
 
 # 3 Revlevant and visualization 
+
+## 3.1 Observe correlation between flag and other variables 
+
+![corr-view](img/corr.png)
+![heatmap-view](img/heatmap.png)
+
+- * flag has strong pairwise positive relations with coupon_used_in_last_month and age. 
+- * flag has strong pairwise negative relations with coupon_used_in_last6_month and returned_yes.
+
 
 # 4 Establish and evaluate logistic regression model 
 
