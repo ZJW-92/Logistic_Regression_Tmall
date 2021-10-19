@@ -86,7 +86,15 @@ coupon = pd.concat([coupon, coupon1], axis = 1)
 
 
 # 4 Establish and evaluate logistic regression model 
+## 4.1 Model result
+- when coupon_used_in_last_month increases from 0 to 1，the probability increase from not using coupon to using coupon is e^0.3867，that is 1.46 times. 
+- when returned_yes from 1 to 0，the probability increase from using coupon to not using coupon is 0.9590 times.
+- when loan_yes from 1 to 0，the probability increase from using coupon to not using coupon is 0.5622 times.
+- Therefore, from the perspective of probability, customers who have used coupons last month, customers who have not returned goods, and customers who have not paid with ANT credit pay will have a higher probability of using coupon again.
 
+## 4.2 Model evaluation
+
+## 4.3 Model refinement
 
 # 5 Summary 
 
