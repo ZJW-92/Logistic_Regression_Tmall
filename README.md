@@ -109,6 +109,6 @@ coupon = pd.concat([coupon, coupon1], axis = 1)
 
 # 5 Summary 
 
-
+- The data shows that 18-95 years old customers are more likely to use coupons, and the customer group with a higher probability of using coupons is 40 years old.
 
 
